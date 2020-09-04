@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative{
+            position: relative;
+            background-color: darkgreen;
+            width: 500px;
+            height: 500px;
+            top: 200px;
+        }
+        .absolute{
+            position: absolute;
+            width: 20px;
+            height: 20px;
+        }
+        .red{
+            background-color: red;
+            top: 50px;
+            left: 300px;
+        }
+        .green{
+            background-color: rgb(70, 0, 128);
+            top: 20px;
+            right: 30px;
+        }
+        .blue{
+            background-color: blue;
+            right: 50px;
+            bottom: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative">
+        <div class="absolute red"></div>
+        <div class="absolute green"></div>
+        <div class="absolute blue"></div>
+    </div>
+</body>
+</html>

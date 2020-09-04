@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float And ClearFix</title>
+    <style>
+      .container{
+          width: 1024px;
+          margin: 0 auto;
+      }
+      .header{
+          height: 50px;
+          background-color: aqua;
+      }
+      .main{
+          height: 300px;
+          background-color: darkolivegreen;
+          width: 70%;
+          float: left;
+      }
+      .sidebar{
+        height: 300px;
+          background-color: crimson;
+          width: 30%;
+          float: right;
+      }
+      .footer{
+          height: 50px;
+          background-color: indigo;
+      }
+      .clearfix{
+          clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">header</div>
+      <div class="main">main</div>
+      <div class="sidebar">sidebar</div>
+      <div class="clearfix"></div>
+      <div class="footer">footer</div>
+    </div>
+  </body>
+</html>
