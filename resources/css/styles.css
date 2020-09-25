@@ -238,3 +238,78 @@ header {
 .product-box .btn{
     margin-left: 20%;
 }
+
+/* =========================================================== */
+/* ======================TESTINOMALS SECTION================== */
+/* =========================================================== */
+.testimonials-section{
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85)), url(/resources/img/background2.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.testimonials-section h2{
+    margin-bottom: 70px;
+}
+blockquote{
+    position: relative;
+    font-style: italic;
+    line-height: 140%;
+    color: white;
+    width: 95%;
+}
+blockquote::before{
+    content:'\201C'; 
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+cite{
+    display: block;
+    color: #576b7e;
+    margin-top: 25px;
+}
+cite img{
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+/* ================================================== */
+/* ====================Sponsor-section================ */
+/* ================================================== */
+.sponsors-section{
+    background-color: #f4f4f4;
+}
+.sponsors-section h2{
+    margin-bottom: 50px;
+}
+.sponsors-showcase{
+    margin-left: 7%;
+    margin-bottom: 20px;
+}
+.sponsors-showcase li{
+    list-style: none;
+    float: left;
+    width: 30%;
+    text-align: center;
+}
+.logo-sponsor{
+    width: 140px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.sponsors-showcase li .logo-sponsor:hover,
+.sponsors-showcase li .logo-sponsor:active{
+    transform: scale(1.2);
+}
+figcaption{
+    color: #265077;
+    font-weight: 900;
+    font-size: 120%;
+    cursor: pointer;
+}
