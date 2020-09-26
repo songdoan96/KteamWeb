@@ -1,0 +1,22 @@
+/* BIG TABLET TO 1200px */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 16px;
+    }
+    .heading-main-box{
+        transform: translate(-35%,-50%);
+    }
+    form{
+        margin-left: 30%;
+    }
+}
+@media only screen and (max-width:1023px){
+    .logo{
+        width: 300px;
+        margin-left: 40px;
+    }
+}
+@media only screen and (max-width:767px){
+}
+@media only screen and (max-width:480px){
+}
